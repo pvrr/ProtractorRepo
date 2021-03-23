@@ -32,6 +32,7 @@ describe('angularjs homepage', function() {
 
       expect(todoList.count()).toEqual(3);
       expect(todoList.get(2).getText()).toEqual('write a protractor test');
+      console.log("Test got passed");
     });
   });
 });
